@@ -17,6 +17,16 @@ public class Main {
         System.out.println(Veletlen.velKarakter('A', 'Z'));
 
         System.out.println(Veletlen.velTeljesNev(true));
+
+        System.out.println(Veletlen.velDatum(1991, 2022));
+
+        System.out.println(Veletlen.velEmail("Füredi Dániel"));
+
+        System.out.println(Veletlen.velMobil());
+
+        System.out.println(Veletlen.velSportag());
+
+        System.out.println(Veletlen.velEgyesulet());
     }
 
     private static void bolygoFeladat() {
